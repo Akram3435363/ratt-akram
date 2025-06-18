@@ -1,0 +1,164 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.CBS
+{
+    font-size: 1.15rem;
+}
+
+.CB
+{
+    display: flex;
+    gap: 20px;
+}
+
+.btn 
+{
+  background-color: #fbbc05; 
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 999px; 
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+  margin-right: 5%;
+}
+
+.logo
+{
+    margin-left: 5%;
+}
+
+.PEH
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.PEB
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.S1
+{
+    font-size: 3.5rem;
+}
+
+.S2
+{
+    font-size: 3.5rem;
+    color: #fbbc05;
+}
+
+.S3
+{
+    color: gray;
+    
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; /* Centrage horizontal */
+  margin-top: 20px;
+}
+
+
+.btn2 
+{
+  background-color: #fbbc05;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+  width: auto;           /* <- important */
+  max-width: 80px;      /* optionnel, pour éviter l'étirement */
+  white-space: nowrap;   /* pas de retour à la ligne */
+  display: flex;
+  justify-content: center; /* Centrage horizontal */
+  margin-top: 20px;
+}
+
+.DP
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.small-img {
+  width: 352px;   
+  height: auto;   
+}
+
+.S4
+{
+    font-size: 2rem;
+}
+
+.TP
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+.PL {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espace entre les cartes */
+  flex-wrap: wrap; /* permet d’aller à la ligne sur petits écrans */
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.icon-container {
+  background-color: #fbbc05;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-img {
+  width: 24px;
+  height: 24px;
+}
+
+
+.PL
+{
+    display: flex;
+    gap: 6%;
+    margin-top: 3%;
+}
